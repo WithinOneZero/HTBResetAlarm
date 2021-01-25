@@ -1,7 +1,7 @@
 # HTBResetAlarm
-JS which alerts you if someone's issued a reset to a specific machine and server on HackTheBox.
+JS which alerts you if someone has issued a reset to a specific machine and server on HackTheBox.
 
-To use it, you go the the shoutbox page and copy to code into the browser console. By default it checks for resets every 5 seconds.
+To use it, you go to the shoutbox page and copy to code into the browser console. By default it checks for resets every 5 seconds. It uses jQuery, and was written based on the classic HTB shoutbox page (not the new beta UI).
 
 The script will also take care of enabling browser notifications for the shoutbox page in case you've never done that. If you deny the permission for notification by accident, you'll need to click on the icon near the HTTPS lock and remove the rule.
 
